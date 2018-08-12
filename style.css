@@ -1,0 +1,144 @@
+﻿/**
+*
+Theme Name: Bookshelf Theme
+Theme URI: https://www.bookshelf.co
+Author: Ali Mozafari
+Description: An Awesome Wordpress Theme
+Version: 1.0
+License: MIT/X11 , Includes generic legal disclaimer of liability
+License URI: https://en.wikipedia.org/wiki/MIT_License
+Tags: Bookshelf plugin Compatible,
+Text Domain: bookshelftheme
+This theme is licensed under the MIT/X11. ©2017
+*
+**/
+
+@import url(./assets/css/basic.css);
+
+
+.contain {
+
+	background-color: rgba(0,0,0,0.5);
+	background: url('./assets/images/bg_dark.jpg') no-repeat bottom left fixed;
+	height : 100%;
+	text-align: center;
+	padding: 50px 0;
+	-webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+
+}
+
+.contain .contain_title {
+
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+
+.contain .h_line img {
+
+	margin: 0 auto;
+
+}
+
+#main_items {
+
+	padding: 50px 0;
+
+}
+#main_items .main_item {
+
+	position: relative;
+	box-sizing: border-box;
+	background-clip: content-box;
+	width: 33.333333%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+
+}
+
+#main_items .main_item a {
+
+	display: inline-block;
+	width: 100%;
+	position: relative;
+
+}
+
+#main_items .main_item img {
+
+	display: block;
+	width: 100%;
+	-webkit-filter: grayscale(0.7);
+  	filter: grayscale(0.7);
+  	transition: .5s ease;
+
+}
+
+#main_items .main_item .main_item_title {
+
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	right: 0;
+	bottom: 40px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #3498db;
+
+}
+
+#main_items .main_item h1 {
+
+	
+	text-align: center;
+	width: inherit;
+	margin: 20px;
+	bottom: 20px;
+	font-size: 15px;
+	color: #fff;
+}
+
+#main_items .main_item:hover img {
+
+	-webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+
+}
+
+footer {
+
+	background-color: #212121;
+	padding: 50px 0;
+	min-height: 300px;
+
+}
+
+footer div {
+
+	text-align: left;
+
+}
+
+footer div a {
+
+	color: #fff;
+	font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

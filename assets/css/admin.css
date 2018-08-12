@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'FontAwesome';
+ src:url('../fonts/FontAwesome.ttf') format("truetype"), src:url('../fonts/FontAwesome.eot') format('eot'), src:url('../fonts/FontAwesome.eot#iefix') format('embedded-opentype');
+	
+}
+
+body {
+	
+	font-family : yekan , tahoma , sans-serif;
+	
+}
+
+ul {
+
+	padding: 0;
+	margin: 0;
+
+}
+
+li {
+
+	list-style: none;
+
+}
+
+a {
+
+	color : #009788;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+
+}
+
+
+a:hover , a:active{
+
+	color : #00695B;
+	text-decoration: none;
+
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+
+	font-family : yekan , tahoma , sans-serif !important;
+	margin: 0;
+	color : #4D5A6A;
+
+}
+
+
+h1 {
+
+	font-size : 28px;
+	font-weight: 900;
+
+}
+
+h2 {
+
+	font-size : 19px;
+	font-weight: 700;
+	
+
+}
+
+h3 {
+
+	font-size : 18px;
+	font-weight: 600;
+
+}
+
+h4 {
+
+	font-size : 16px;
+	font-weight: 600;
+
+}
+
+p {
+
+	font-size: 15px;
+	color : #666;
+
+}
+
+.clearfix:after {
+
+	content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+.img-responsive {
+
+	display: block;
+	max-width: 100%;
+	height : auto;
+
+}

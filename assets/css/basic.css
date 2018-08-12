@@ -1,0 +1,380 @@
+body {
+
+	font-family: sans-serif;
+	font-weight: 300;
+	direction: rtl;
+	background-color: #E2E2E2;
+	margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6,input, textarea {
+
+	font-family: sans-serif;
+
+}
+
+
+/* 2.0 - Base 
+-----------------------------------------------------------------------------*/
+html {
+
+
+	height: 100%;
+	margin-bottom: 1px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+
+
+body {
+
+	font-family: sans-serif;
+	font-weight: 300;
+	margin: 0;
+	direction: rtl;
+	min-height: 100%;
+	background-color : #E6E6E6;
+
+}
+
+body::-webkit-scrollbar {
+    width: 0.8em;
+
+}
+ 
+body::-webkit-scrollbar-track {
+
+    
+    background-color: #000;
+}
+ 
+body::-webkit-scrollbar-thumb {
+
+  background-color: #424242;
+  outline: 1px solid #424242;
+
+}
+
+ul {
+
+	padding: 0;
+	margin: 0;
+
+}
+
+li {
+
+	list-style: none;
+
+}
+
+a {
+
+	color : #009788;
+	text-decoration: none;
+	font-size: 16px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+
+}
+
+
+a:hover , a:active{
+
+	color : #00695B;
+	text-decoration: none;
+
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+
+	font-family: IRANSans , sans-serif;
+	margin: 0;
+	color : #4D5A6A;
+
+}
+
+
+h1 {
+
+	font-size : 28px;
+	font-weight: 900;
+	cursor: context-menu;
+	
+
+}
+
+h2 {
+
+	font-size : 19px;
+	font-weight: 700;
+	
+
+}
+
+h3 {
+
+	font-size : 18px;
+	font-weight: 600;
+
+}
+
+h4 {
+
+	font-size : 16px;
+	font-weight: 600;
+
+}
+
+p {
+
+	font-size: 13px;
+	color : #666;
+
+}
+
+.clearfix:after {
+
+	content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+.img-responsive {
+
+	display: block;
+	max-width: 100%;
+
+}
+
+@media (min-width: 768px) {
+
+	.visible-mobile {
+
+		display: none;
+
+	}
+
+	.hidden-mobile {
+
+	display: block;
+
+	}
+
+}
+
+
+@media (max-width: 768px) {
+
+	.hidden-mobile {
+
+	display: none;
+
+	}
+
+	.visible-mobile {
+
+		display: block;
+
+	}
+
+
+}
+
+/*End 2.0 - Base
+-----------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+
+
+
+}
+
+@media (min-width: 992px) {
+
+	
+	
+}
+
+@media (min-width: 1200px) {
+
+	
+	
+}
+
+
+.container {
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-left : 15px;
+	padding-right: 15px;
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+
+		width: 720px;
+
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.container {
+
+		width: 950px;
+
+	}
+	
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+
+		width: 1150px;
+
+	}
+	
+}
+
+
+.animation-element.slide-up {
+
+	position: relative;
+	opacity: 0;
+	top : -50px;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-up.in-view {
+
+	top : 0px;
+	opacity: 1;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-ms-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-down {
+
+	position: relative;
+	opacity: 0;
+	top : 50px;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-down.in-view {
+
+	top : 0px;
+	opacity: 1;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-ms-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-right {
+
+	position: relative;
+	opacity: 0;
+	right : -20px;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-right.in-view {
+
+	right : 0px;
+	opacity: 1;
+	-webkit-transition: all 1200ms ease-out;
+	-moz-transition: all 1200ms ease-out;
+	-ms-transition: all 1200ms ease-out;
+	-o-transition: all 1200ms ease-out;
+	transition: all 1200ms ease-out;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-left {
+
+	position: relative;
+	opacity: 0;
+	left : -20px;
+	overflow: hidden;
+
+}
+
+.animation-element.slide-left.in-view {
+
+	left : 0px;
+	opacity: 1;
+	-webkit-transition: all 1200ms ease-out;
+	-moz-transition: all 1200ms ease-out;
+	-ms-transition: all 1200ms ease-out;
+	-o-transition: all 1200ms ease-out;
+	transition: all 1200ms ease-out;
+	overflow: hidden;
+
+}
+
+
+.animation-element.fade-in {
+
+	position: relative;
+	opacity: 0;
+	
+
+}
+
+.animation-element.fade-in.in-view {
+
+	bottom : 0px;
+	opacity: 1;
+	-webkit-transition: all 2000ms ease-out;
+	-moz-transition: all 2000ms ease-out;
+	-ms-transition: all 2000ms ease-out;
+	-o-transition: all 2000ms ease-out;
+	transition: all 2000ms ease-out;
+
+
+}
+
+
+@media (max-width: 768px) {
+
+	.animation-element.slide-left {
+
+	left : -10px;
+
+	}
+
+	.animation-element.slide-right {
+
+	right : -10px;
+
+	}
+
+
+}
