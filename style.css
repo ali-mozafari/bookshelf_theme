@@ -13,6 +13,8 @@ This theme is licensed under the MIT/X11. ©2017
 *
 **/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 @import url(./assets/css/basic.css);
 
 
@@ -128,6 +130,74 @@ footer div a {
 	font-size: 14px;
 
 }
+
+.archive_contain {
+
+	padding: 50px 0;
+	direction: ltr;
+
+}
+
+.archive_title {
+
+	background: url('assets/images/title_archive.jpg');
+	padding: 40px 0;
+	text-align: left;
+
+}
+
+.archive_title h1 {
+
+	color: #fff;
+
+}
+
+.archive_item img {
+
+	max-width: 100px;
+	float: left;
+	margin-right: 20px;
+
+}
+
+.archive_item {
+
+	box-sizing: border-box;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	width: 30%;
+	float: left;
+	padding: 10px;
+	border: 1px solid #424242;
+	border-radius: 15px;
+
+}
+
+.archive_item_content {
+
+
+	margin-top: 10px;
+	padding-left: 10px;
+
+}
+
+.archive_item_content .meta {
+
+	color: #3498db;
+	margin-bottom: 5px;
+	font-size: 14px;
+
+}
+
+.archive_item_content .meta span {
+
+	font-weight: bold;
+	color: #444;
+
+}
+
+
 
 
 

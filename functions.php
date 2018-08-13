@@ -1,7 +1,7 @@
 <?php 
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 spl_autoload_register('bookshelf_register_classes');
 
@@ -30,6 +30,11 @@ function bookshelf() {
 $bookshelf = bookshelf();
 require_once( get_template_directory() . '/inc/class-bookshelf.php' );
 
+
+add_action( 'after_setup_theme', 'bookshelf' );
+function bookshelf_theme_setup(){
+	load_theme_textdomain( 'bookshelf' );
+}
 
 
 //Navigation Menus

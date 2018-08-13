@@ -8,15 +8,7 @@
                        <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item_1.jpg" alt="">
                             <div class="main_item_title">
-                                <h1>See What Happened in Bookshelf</h1>
-                            </div>
-                       </a>
-                   </div>
-                   <div class="main_item">
-                       <a href="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item_2.jpg" alt="">
-                            <div class="main_item_title">
-                                <h1>Our Authors and Publishers</h1>
+                                <h1><?php _e('See What Happened in Bookshelf' , 'bookshelf'); ?></h1>
                             </div>
                        </a>
                    </div>
@@ -24,7 +16,15 @@
                        <a href="">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item_3.jpg" alt="">
                             <div class="main_item_title">
-                                <h1>Find Your Book</h1>
+                                <h1><?php _e('Our Authors and Publishers' , 'bookshelf'); ?></h1>
+                            </div>
+                       </a>
+                   </div>
+                   <div class="main_item">
+                       <a href="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item_2.jpg" alt="">
+                            <div class="main_item_title">
+                                <h1><?php _e('Find Your Book' , 'bookshelf'); ?></h1>
                             </div>
                        </a>
                    </div>
